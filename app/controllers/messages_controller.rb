@@ -2,7 +2,7 @@ class MessagesController < ApplicationController
 
   def index
     messages = Message.all
-    render json: message
+    render json: messages
   end
 
   def create
